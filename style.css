@@ -1,0 +1,118 @@
+/* Poore page ki basic setting reset karne ke liye */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Sabhi computer me chalne wala simple font */
+}
+
+/* Poore page ka background color aur card ko center me lane ke liye */
+body {
+    background-color: #030d0f; /* Dark background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Card ko horizontally center karega */
+    align-items: center;     /* Card ko vertically center karega */
+}
+
+/* Beech ka main login box (Card) */
+.login-card {
+    background-color: #051314; /* Card ka thoda alag dark color */
+    border: 1px solid #102624;  /* Patli si border */
+    border-radius: 12px;        /* Corners ko round karne ke liye */
+    width: 400px;               /* Box ki chaudai */
+    padding: 40px 30px;         /* Andar se gap */
+    text-align: center;         /* Sab kuch center me dikhane ke liye */
+}
+
+/* Logo icon (< />) ki styling */
+.logo-icon {
+    color: #00df6d; /* Green color */
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* CodeStreak Text */
+.brand-name {
+    color: #ffffff; /* White color */
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* Chota sub-text */
+.tagline {
+    color: #708581; /* Muted grey color */
+    font-size: 13px;
+    margin-bottom: 30px; /* Form se thoda gap banane ke liye */
+}
+
+/* Input ke bahar wala box taaki icon aur text line me rahein */
+.input-box {
+    position: relative;
+    margin-bottom: 15px; /* Har input ke beech ka gap */
+}
+
+/* Input box ke andar ke icons */
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%); /* Icon ko exact vertical center karne ke liye */
+    color: #647b78;
+}
+
+/* Asli Input Fields (Username & Password) */
+.input-box input {
+    width: 100%;
+    background-color: #050f10;
+    border: 1px solid #102624;
+    border-radius: 8px;
+    padding: 14px 14px 14px 45px; /* Left side se 45px gap diya taaki text icon ke upar na aaye */
+    color: #ffffff;
+    font-size: 14px;
+    outline: none; /* Click karne par jo default border aati hai use hatane ke liye */
+}
+
+/* Forget Password link ki alignment */
+.forgot-link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-link a {
+    color: #647b78;
+    font-size: 12px;
+    text-decoration: none; /* Underline hatane ke liye */
+}
+
+/* Green Login Button */
+.login-btn {
+    width: 100%;
+    background-color: #1fcc6c; /* Bright Green */
+    color: #030d0f;            /* Button ke text ka color dark */
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;          /* Mouse le jaane par hath ka icon bane */
+}
+
+/* Button par mouse le jaane par thoda dark green hoga */
+.login-btn:hover {
+    background-color: #1be072;
+}
+
+/* Sabse neeche wala Don't have an account text */
+.signup-text {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.signup-text a {
+    color: #1fcc6c;
+    text-decoration: none;
+    font-weight: bold;
+}
